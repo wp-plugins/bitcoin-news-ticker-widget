@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bitcoin_news_container
+{
+	position:relative;
+	top:00px;
+}
+
+.bitcoin_news_widget_container
+{
+	position:relative;
+	width:200px;
+	height:auto;
+	margin:0px auto;
+	//background:url(../images/background.png) no-repeat;
+	background-position:center;
+	background-size:100% auto;
+	padding:10px 0px;
+}
+
+.bitcoin_news_widget_container .widget_frame
+{
+	position:relative;
+	margin:0px 10px;
+	width:180px;
+	height:auto;
+	//overflow:auto;
+	background:#FFFFFF;
+	border:1px solid #7d7d7d;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+	-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.bitcoin_news_widget_container .widget_frame .widget_content_container
+{
+	position:relative;
+	margin:20px auto;
+	width:90%;
+	height:320px;
+}
+
+.bitcoin_news_widget_container .widget_frame .widget_content_container .news_container
+{
+	border-bottom:1px solid #989898;
+	margin-bottom:10px;
+}
+
+.bitcoin_news_widget_container .widget_frame .widget_content_container .news_container h1
+{
+	color:#0c1cb8;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial;
+	padding-bottom:0px;
+	text-align:justify;
+	margin-bottom:8px;
+}
+.bitcoin_news_widget_container .widget_frame .widget_content_container .news_container .author
+{
+	float:left;
+	width:70%;
+	color:#9e9e9e;
+	font-style:italic;
+	font-family:Arial;
+	font-size:10px;
+}
+
+.bitcoin_news_widget_container .widget_frame .widget_content_container .news_container .date
+{
+	float:right;
+	width:30%;
+	color:#9e9e9e;
+	font-style:italic;
+	font-family:Arial;
+	font-size:10px;
+	text-align:right;
+}
+.bitcoin_news_widget_container .widget_frame .widget_content_container .news_container .clear
+{
+	clear:both;
+	padding:3px 0px;
+}
+.bitcoin_news_widget_container .widget_frame .widget_content_container .news_container a
+{
+	color:inherit;
+	text-decoration:none;
+}
+
+.bitcoin_news_widget_container .widget_frame .bitcoin_news_logo
+{
+	background:url(../images/footer_img.png) no-repeat;
+	position:relative;
+	bottom:15px;
+	left:-7px;
+	width:100%;
+	height:30px;
+	cursor:pointer;
+}
+
+/*Custome Slider Style Overrides*/
+.mCSB_container
+{
+	margin-right:20px !important;
+}
+.mCustomScrollBox > .mCSB_scrollTools
+{
+	right:-2px !important;
+	width:15px !important;
+}
