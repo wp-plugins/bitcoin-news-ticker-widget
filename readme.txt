@@ -1,4 +1,4 @@
-=== News Ticker: Bitcoin News Ticker Widget ===
+=== Bitcoin News Ticker Widget ===
 Contributors: ofirbeigel
 Donate link: http://99bitcoins.com/bitcoin-news-ticker-widget-plugin-for-wordpress/
 Tags: bitcoin, bitcoin ticker, bitcoin widget, bitcoin news, bitcoin wordpress, bitcoin news widget
