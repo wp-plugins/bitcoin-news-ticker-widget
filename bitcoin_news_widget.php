@@ -10,7 +10,7 @@
 
     Author: Ofir Beigel
 
-    Version: 1.0.5
+    Version: 1.0.6
 
     Author URI: ofir@99bitcoins.com
 
