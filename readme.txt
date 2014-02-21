@@ -9,7 +9,9 @@ License: GPLv2
 
 Display an update Bitcoin news widget on your website.
 
-== Description ==
+== Description ==
+[youtube http://www.youtube.com/watch?v=VBUatGiAwBk]
+
 The latest plugin from 99Bitcoins. Display an updated Bitcoin news feed widget on your website.
 
 * A practically endless feed of relevant Bitcoin news stories.
