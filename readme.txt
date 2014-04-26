@@ -11,6 +11,10 @@ IMPORTANT! The current version isn’t working properly. I am working hard to ge
 Display an update Bitcoin news widget on your website.
 
 == Description ==
+
+IMPORTANT! The current version isn’t working properly. I am working hard to get it up and running, hopefully today :) I appreciate your patience in this matter. 
+
+
 [youtube http://www.youtube.com/watch?v=VBUatGiAwBk]
 
 The latest plugin from 99Bitcoins. Display an updated Bitcoin news feed widget on your website.
