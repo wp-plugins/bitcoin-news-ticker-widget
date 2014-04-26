@@ -6,6 +6,7 @@ Requires at least: 2.9
 Tested up to: 3.8.1
 Stable tag: 2.0
 License: GPLv2
+IMPORTANT! The current version isn’t working properly. I am working hard to get it up and running, hopefully today :) I appreciate your patience in this matter. 
 
 Display an update Bitcoin news widget on your website.
 
