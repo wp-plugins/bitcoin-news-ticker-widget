@@ -16,7 +16,7 @@ The latest plugin from 99Bitcoins. Display an updated Bitcoin news feed widget o
 
 * A practically endless feed of relevant Bitcoin news stories.
 * Bitcoin news feed is updated daily.
-* All Bitcoin news stories are manually picked so only quality content is shown.
+* Only quality content is shown.
 * ALL links in this plugin are “nofollow” so you don’t need to worry about SEO.
 
 Visit my original plugin page at http://99bitcoins.com/bitcoin-news-ticker-widget-plugin-for-wordpress/
@@ -58,8 +58,16 @@ Answer: Yes you can. Although I'd prefer you wouldn't.
 = 1.0.5 = 
 
 * Fixed JS issues
+
+= 1.0.7 = 
+
+* Made feed manual from various news sources
 
 == Upgrade Notice ==
 
 = 1.0 =
-* Get the latest Bitcoin prices on your site
+* Get the latest Bitcoin news stories on your site
+
+= 1.0.7 = 
+
+* Get the latest Bitcoin news stories on your site
