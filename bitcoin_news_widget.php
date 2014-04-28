@@ -4,7 +4,7 @@
     Plugin URI: 99bitcoins.com/bitcoin-news-ticker-widget-plugin-for-wordpress/
     Description: Displays a widget on your site of latest Bitcoin News
     Author: Ofir Beigel
-    Version: 1.0.7
+    Version: 1.0.8
     Author URI: ofir@99bitcoins.com
 */
 
@@ -13,12 +13,16 @@ DEFINE("BITCOIN_NEWS_CACHE_DURATION",300); // 5 minutes, because API is regenera
 
 function bitcoin_news_update_data(){
 
-	/*$response = wp_remote_get( BITCOIN_NEWS_URL , array(
+	$response = wp_remote_get( BITCOIN_NEWS_URL , array(
 		"sslverify" => false,
 		"timeout" => 10
-	) );*/
-
-	$xml = simplexml_load_file(BITCOIN_NEWS_URL);
+	) );
+	
+	if (!isset($response['body'])) {
+		return;
+	}
+	
+	$xml = simplexml_load_string($response['body']);
 	$dataCounter = 0;
 
 	foreach ($xml->entry as $en) {
