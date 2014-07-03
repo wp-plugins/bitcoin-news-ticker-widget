@@ -4,7 +4,7 @@
     Plugin URI: 99bitcoins.com/bitcoin-news-ticker-widget-plugin-for-wordpress/
     Description: Displays a widget on your site of latest Bitcoin News
     Author: Ofir Beigel
-    Version: 1.0.8
+    Version: 1.0.9
     Author URI: ofir@99bitcoins.com
 */
 
@@ -17,21 +17,6 @@ function bitcoin_news_update_data(){
 		"sslverify" => false,
 		"timeout" => 10
 	) );
-	
-	if (!isset($response['body'])) {
-		return;
-	}
-	
-	$xml = simplexml_load_string($response['body']);
-	$dataCounter = 0;
-
-	foreach ($xml->entry as $en) {
-		$response['body'][$dataCounter]['url'] = (string)$en->link['href'];
-		$response['body'][$dataCounter]['host'] = (string)$en->source->link['href'];
-		$response['body'][$dataCounter]['title'] = (string)$en->title;
-		$response['body'][$dataCounter]['timestamp'] = (string)$en->updated;
-		$dataCounter++;
-	}
 
 	$btw_options_news_data = get_option("btw_options_news_data");
 
@@ -57,9 +42,25 @@ function bitcoin_news_update_data(){
 		return;
 
 	endif;
+	
+	if (!isset($response['body'])) {
+		return;
+	}
+	
+	$xml = simplexml_load_string($response['body']);
+	$dataCounter = 0;
+	$xmlresponse = array();
+	foreach ($xml->entry as $en) {
+	//var_dump($en);
+		$xmlresponse['body'][$dataCounter]['url'] = (string)$en->link['href'];
+		$xmlresponse['body'][$dataCounter]['host'] = (string)$en->source->link['href'];
+		$xmlresponse['body'][$dataCounter]['title'] = (string)$en->title;
+		$xmlresponse['body'][$dataCounter]['timestamp'] = (string)$en->updated;
+		$dataCounter++;
+	}
 
-	//$json = json_decode( $response["body"] , true );
-	$json = $response["body"];
+	//$json = json_decode( $xmlresponse["body"] , true );
+	$json = $xmlresponse["body"];
 
 	if( isset( $json["error"] ) && $json["error"] == true ):
 

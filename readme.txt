@@ -67,6 +67,10 @@ Answer: Yes you can. Although I'd prefer you wouldn't.
 = 1.0.8 = 
 
 * Fixed feed issues
+
+= 1.0.9 = 
+
+* Fixed feed issues
 
 == Upgrade Notice ==
 
@@ -78,5 +82,9 @@ Answer: Yes you can. Although I'd prefer you wouldn't.
 * Get the latest Bitcoin news stories on your site
 
 = 1.0.8 = 
+
+* Get the latest Bitcoin news stories on your site
+
+= 1.0.9 = 
 
 * Get the latest Bitcoin news stories on your site
