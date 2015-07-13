@@ -3,7 +3,7 @@ Contributors: ofirbeigel
 Donate link: http://99bitcoins.com/bitcoin-news-ticker-widget-plugin-for-wordpress/
 Tags: bitcoin, bitcoin ticker, bitcoin widget, bitcoin news, bitcoin wordpress, bitcoin news widget, bitcoin news feed
 Requires at least: 2.9
-Tested up to: 3.8.1
+Tested up to: 4.2.2
 Stable tag: 2.0
 License: GPLv2
 
